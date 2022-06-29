@@ -13,8 +13,8 @@ Serviço de cadastro para gestão do DAS para o microempreendedor, utilizando mi
 
 ### Interface
 
-login(String email, String password)
-getBoleto(String cnpj, String data)
-listStatusCNPJ(String cnpj)
-tokenIsValid(String token)
-registerUser(String name, String email, String phone, String cnpj )
+1. login(String email, String password)
+2. getBoleto(String cnpj, String data)
+3. listStatusCNPJ(String cnpj)
+4. tokenIsValid(String token)
+5. registerUser(String name, String email, String phone, String cnpj )
