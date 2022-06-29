@@ -1,0 +1,2 @@
+FROM nginx:stable-alpine
+COPY nginx-web-server.conf /etc/nginx/nginx.conf
