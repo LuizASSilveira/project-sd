@@ -10,3 +10,11 @@ Serviço de cadastro para gestão do DAS para o microempreendedor, utilizando mi
 2. Nginx redirecionará a requisição para o servidor web com o menor número de conexões ativas (172.18.0.210:8080, 172.18.0.220:8080)
 3. Servidor web solicita o serviço ao microsserviço responsável 
 4. Os microsserviços pode realizar uma consulta ao banco de dados (172.18.0.240:3306), realizar uma consulta externa ao serviço do governo (http://www8.receita.fazenda.gov.br) ou realizar uma chamada de processo remoto para outro microsserviço (gRPC).
+
+### Interface
+
+login(String email, String password)
+getBoleto(String cnpj, String data)
+listStatusCNPJ(String cnpj)
+tokenIsValid(String token)
+registerUser(String name, String email, String phone, String cnpj )
